@@ -2,58 +2,107 @@
 <html lang="mr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Guru's Flower Craft</title>
+
 <style>
-body{margin:0;font-family:Arial;background:#fff5f8;color:#633b4e}
-header{text-align:center;background:#f8d5e4;padding:30px}
-h1{color:#a33f70}
-.hero{text-align:center;padding:45px 15px;background:#ffeaf2}
-button{background:#a33f70;color:white;padding:12px 25px;border:0;border-radius:20px}
-.products{display:flex;flex-wrap:wrap;justify-content:center;gap:15px;padding:20px}
-.card{background:white;padding:20px;border-radius:15px;text-align:center;width:200px}
-.flower{font-size:55px}
-.price{color:#a33f70;font-weight:bold}
-footer{text-align:center;background:#f8d5e4;padding:20px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial;background:#fff8fb;color:#573b49}
+header{background:white;padding:20px;text-align:center}
+header h1{color:#b34f7d;margin:5px}
+nav{padding:15px;text-align:center;background:#fce5ee}
+nav a{margin:10px;color:#913c65;text-decoration:none;font-weight:bold}
+.hero{padding:50px 15px;text-align:center;background:#f9dce8}
+.hero h2{font-size:30px;color:#913c65}
+.hero p{font-size:18px}
+.btn{display:inline-block;background:#a94475;color:white;padding:13px 25px;border-radius:30px;text-decoration:none}
+section{padding:30px 15px}
+h2{text-align:center;color:#a94475}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:18px;max-width:950px;margin:auto}
+.card{background:white;padding:20px;text-align:center;border-radius:18px;box-shadow:0 3px 12px #e9cbd8}
+.flower{font-size:65px}
+.price{font-size:22px;color:#a94475;font-weight:bold}
+.card p{color:#765b68}
+footer{text-align:center;background:#f9dce8;padding:25px}
 </style>
 </head>
+
 <body>
 
 <header>
 <h1>🌸 Guru's Flower Craft 🌸</h1>
-<p>Beautiful Handmade Flowers</p>
+<p>Beautiful Handmade Pipe Cleaner Flowers</p>
 </header>
 
-<div class="hero">
-<h2>तुमच्यासाठी खास Handmade Bouquets 💐</h2>
-<p>प्रेमाने बनवलेली सुंदर फुले</p>
+<nav>
+<a href="#home">Home</a>
+<a href="#products">Products</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+<h2>Beautiful Flowers Made With Love 💐</h2>
+<p>तुमच्या खास व्यक्तीसाठी सुंदर Handmade Bouquets!</p>
+<a class="btn" href="#products">Shop Now</a>
 </div>
 
-<h2 style="text-align:center">Our Products</h2>
+<section id="products">
+<h2>🌷 Our Products 🌷</h2>
 
-<div class="products">
+<div class="grid">
+
 <div class="card">
-<div class="flower">🌷</div>
-<h3>Tulip Flower</h3>
-<p class="price">₹59</p>
+<div class="flower">🌻</div>
+<h3>Sunflower Bouquet</h3>
+<p>Beautiful handmade sunflower</p>
+<div class="price">₹149</div>
+<a class="btn" href="#contact">Order Now</a>
 </div>
 
 <div class="card">
 <div class="flower">🌹</div>
 <h3>Rose Bouquet</h3>
-<p class="price">₹149</p>
+<p>Special handmade rose flowers</p>
+<div class="price">₹149</div>
+<a class="btn" href="#contact">Order Now</a>
 </div>
 
 <div class="card">
 <div class="flower">💐</div>
-<h3>Special Bouquet</h3>
-<p class="price">₹249</p>
-</div>
+<h3>Lavender Bouquet</h3>
+<p>Beautiful purple flower bouquet</p>
+<div class="price">₹249</div>
+<a class="btn" href="#contact">Order Now</a>
 </div>
 
+</div>
+</section>
+
+<section id="about">
+<h2>About Us ❤️</h2>
+<p style="text-align:center">
+Guru's Flower Craft मध्ये प्रत्येक फूल प्रेमाने हाताने बनवले जाते.
+वाढदिवस, Anniversary आणि खास भेटवस्तूंसाठी सुंदर Bouquets.
+</p>
+</section>
+
+<section id="contact">
+<h2>Order Now 📱</h2>
+<p style="text-align:center">
+WhatsApp वर ऑर्डर देण्यासाठी खाली क्लिक करा.
+</p>
+<center>
+<a class="btn" href="https://wa.me/91YOURNUMBER">
+WhatsApp Order
+</a>
+</center>
+</section>
+
 <footer>
-<p>© Guru's Flower Craft</p>
-<p>Thank you for visiting ❤️</p>
+<h3>🌸 Guru's Flower Craft 🌸</h3>
+<p>Handmade With Love ❤️</p>
+<p>© 2026 All Rights Reserved</p>
 </footer>
 
 </body>
